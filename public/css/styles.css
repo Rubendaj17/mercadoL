@@ -1,0 +1,481 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+    
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+header{
+    background-color: #EAC926;
+    font-size: 14px;
+}
+
+header p{
+    text-align: center;
+}
+
+header a img{
+    width: 100%;
+}
+
+header a{
+    width: 50%;
+}
+
+.logo-busqueda{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px
+}
+
+header form{
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+header input{
+    height: 30px;
+    
+}
+
+header button{
+    display: block;
+    margin-bottom: 8px;
+    background-color: white;
+    border:solid rgba(0, 0, 0, 0.548) 0.1px;
+    padding: 2px;
+    height: 30px;
+    
+}
+
+header ul {
+    padding-bottom: 10px;
+    display: none;
+    list-style-type: none;
+    
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.burger-menu{
+    text-align: center; 
+}
+
+.fa-bars{
+    color: white;
+    background-color: #1259c3;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+main .seccion1 {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.cafetera,.samsung,.tv,.macbook{
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+}
+
+main{
+    text-align: center;
+    width: 90vw;
+    margin: auto;
+        
+}
+
+main h4{
+    opacity: 0;
+    font-size: 18px;
+}
+
+article{
+    margin-bottom:  10px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caja-menor{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-top: solid #ebebeb 1px;
+    background-color: white;
+    padding: 15px 15px 5px;
+
+}
+.price-discount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.price{
+    width: 30%;
+    text-align: left;
+}
+.discount{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.fa-truck{
+    color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    
+    
+}
+
+
+main .title{
+    font-size: 22px;
+    text-align: left;
+    margin: 15px 0;
+
+}
+
+
+.price{
+    font-size: 18px;
+}
+
+.discount{
+    color: #39b54a;
+    font-size: 16px;
+}
+
+article h3{
+    display: none;
+    font-size: 16px;
+    margin: 10px 10px 0px 0px;
+    text-align: left;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
+    padding-top: 15px;
+}
+
+footer section{
+    margin: 15px;
+
+}
+
+footer p{
+    font-size: 14px;
+    padding: 15px;
+}
+
+footer h3{
+    font-size: 18px;
+}
+
+.fa-credit-card,.fa-gift,.fa-user-shield{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+
+/* Register.html */
+
+.register-title{
+    font-size: 20px;
+    margin: 15px 0px
+}
+
+
+section form .input-container{
+    position: relative;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #B7BDC7;
+    border-radius: 8px;
+    background-color: white;
+  
+}
+
+section form{
+    margin: auto;
+    max-width: 470px;
+}
+
+.input-name,.input-username,.input-email,.input-adress,.input-date,.input-profile,.input-photo,.input-password,.input-button,.multiple-selection{
+    margin: 15px 0px;  
+}
+
+.input-name,.input-username,.input-email,.input-adress,.input-password{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold
+}
+
+.input-date{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-weight: bold
+}
+
+
+.input-date label{
+    margin-bottom: 5px;
+}
+
+.input-profile{
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-profile label{
+    font-weight: bold
+}
+
+
+.input-photo{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-button button{
+    color: white;
+    background-color:#1259c3;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 10px 5px;
+
+}
+
+.input-button button:hover{
+    background-color:#0022AA;
+}
+
+.radio-buttons {
+    display: flex;
+    align-items: center;
+
+}
+
+.multiple-selection{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.multiple-selection label {
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+.specific-interest{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin: 10px;
+}
+.specific-interest input{
+  margin-right: 10px;
+}
+
+header ul{
+    margin-right: 10px;
+}
+
+form div{
+    position: relative;
+}
+
+form span{
+    color: red;
+    font-weight: bold;
+    font-size: 10px;
+    position: absolute;
+    text-align: right;
+    top: 22px;
+    right: 2px;
+}
+
+
+@media (min-width: 361px) {
+    .burger-menu{
+        display: none;
+    }
+
+    
+    header nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav li{
+        margin: 2px;
+    }
+
+    .header-principal{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center; 
+        flex-wrap: wrap; 
+    
+    }
+
+    .header-principal p{
+        margin-bottom: 10px;
+    }
+
+    header ul{
+        display: flex;
+        margin-left:10px;
+    }
+   
+    
+    main h4 {
+        display: inherit;
+        opacity: 1;
+        margin-top: 15px;
+    }
+
+    .seccion1,.seccion2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    }
+
+    .seccion1 article,.seccion2 article{
+        max-width: 47%;
+    }
+
+    article h3{
+        opacity: 0;
+        transition:  opacity 0.5s
+    }
+
+
+    article i{
+        transition: transform 1s
+    }
+
+    article:hover i{
+        transform: rotate(90deg);
+    }
+
+
+    article:hover h3{
+        display: flex;
+        opacity: 1;
+    }
+
+    article {
+        height: fit-content;
+        transition:  all 0.5s;
+
+    }
+   
+   
+    article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        height: auto;
+
+    }
+
+    .input-name,.input-username,.input-email,.input-adress,.input-date,.input-profile,.input-photo,.input-password,.input-button,.multiple-selection{
+        font-size: 14px;  
+    }
+    
+    .input-name input,.input-username input,.input-email input,.input-adress input,.input-password input{
+        width: 50%;
+    }
+    
+
+}
+
+@media (min-width: 769px) {
+
+    .seccion1 article,.seccion2 article{
+        max-width: 22%;
+    }
+    
+    header nav li{
+        margin: 10px;
+    }
+    footer .footer-sections{
+        display: flex;
+        flex-direction: row;
+    }
+    footer section i:hover{
+        color:#39b54a;
+    }
+    
+    .copyright{
+        text-align: left;
+    }
+
+    article:hover h3{
+        opacity: 1;
+
+    }
+
+    article:hover h3{
+        opacity: 1;
+    }
+
+    
+
+    article {
+        height: 240px;
+        transition:  all 0.5s;
+
+    }
+   
+   
+    article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        height: auto;
+
+    }
+
+   
+    
+}
